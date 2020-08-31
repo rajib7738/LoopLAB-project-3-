@@ -1,0 +1,51 @@
+@media only screen and (max-width: 980px) {
+	.header-heading h1 {
+    font-size: 35px;
+    line-height: 1;
+	}
+	.text-white{
+		font-size: 20px;
+	}
+	.explore-discription p {
+    	font-size: 16px;
+	}
+	.lead {
+    font-size: 17px;
+	}
+	.create-discription p {
+    font-size: 15px;
+	}
+	.create-discription,.explore-discription {
+		text-align: center;
+	}
+	.modal-dialog{
+	 	 margin-top: 250px;
+	 }
+}
+
+@media only screen and (max-width: 768px) {
+	 .modal-dialog{
+	 	 margin-top: 200px;
+	 }
+}
+@media only screen and (max-width: 480px) {
+	.text-white {
+    font-size: 15px;
+	}
+	.header-heading h1{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.form-head{
+		margin-top: 30px;
+	}
+	.ml-5, .mx-5 {
+    margin-left: 1rem !important;
+	}
+	.p-4 {
+    padding: 5px !important;
+	}
+	.modal-dialog {
+    margin-top: 250px;
+}
+}
